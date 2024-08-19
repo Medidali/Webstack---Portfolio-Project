@@ -48,6 +48,28 @@ body{
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px rgb(100, 100, 100);
 }
+.landing-page {
+    height: 700px;
+}
+
+.landing-page>img {
+    width: 90px;
+}
+
+.landing-page>h1 {
+    font-size: 80px;
+}
+
+.line {
+    width: 200px;
+    margin-top: 5px;
+    border: 1px solid rgb(89, 56, 196);
+}
+
+.landing-page>p {
+    font-size: 20px;
+    margin: 100px 10px 30px 10px;
+}
 
 .start_btn,
 .info_box,
