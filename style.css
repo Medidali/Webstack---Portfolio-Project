@@ -70,6 +70,18 @@ body{
     font-size: 20px;
     margin: 100px 10px 30px 10px;
 }
+.landing-page>button {
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 .start_btn,
 .info_box,
