@@ -25,7 +25,7 @@ body{
     align-items: center;
     height: 100vh;
 }
-.container, .info_box {
+.container, .info_box, .quiz_box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,8 +180,8 @@ body{
 }
 
 .quiz_box{
-    width: 550px;
-    background: #fff;
+    width: 450px;
+    /*background: #fff;*/
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -193,6 +193,7 @@ body{
     position: relative;
     z-index: 2;
     height: 70px;
+	width: 424px;
     padding: 0 30px;
     background: #fff;
     border-radius: 5px 5px 0 0;
@@ -203,8 +204,8 @@ body{
 }
 
 .quiz_box header .title{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .quiz_box header .timer{
