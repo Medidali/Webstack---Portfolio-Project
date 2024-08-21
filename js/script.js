@@ -27,7 +27,7 @@ continue_btn.onclick = ()=>{
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
     startTimer(10); //calling startTimer function
-    //startTimerLine(0); //calling startTimerLine function
+    //startTimerLine(0); calling startTimerLine function
 }
 
 let timeValue =  10;
