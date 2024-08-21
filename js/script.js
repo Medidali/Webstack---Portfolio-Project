@@ -6,7 +6,7 @@ const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
-const time_line = document.querySelector("header .time_line");
+//const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
@@ -27,7 +27,7 @@ continue_btn.onclick = ()=>{
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
     startTimer(10); //calling startTimer function
-    startTimerLine(0); //calling startTimerLine function
+    //startTimerLine(0); //calling startTimerLine function
 }
 
 let timeValue =  10;
@@ -78,7 +78,7 @@ next_btn.onclick = ()=>{
         clearInterval(counter); //clear counter
         clearInterval(counterLine); //clear counterLine
         startTimer(timeValue); //calling startTimer function
-        startTimerLine(widthValue); //calling startTimerLine function
+        //startTimerLine(widthValue); //calling startTimerLine function
         timeText.textContent = "Time Left"; //change the timeText to Time Left
         next_btn.classList.remove("show"); //hide the next button
     }else{
@@ -193,7 +193,7 @@ function startTimer(time){
         }
     }
 }
-
+/*
 function startTimerLine(time){
     counterLine = setInterval(timer, 29);
     function timer(){
@@ -203,7 +203,7 @@ function startTimerLine(time){
             clearInterval(counterLine); //clear counterLine
         }
     }
-}
+}*/
 
 function queCounter(index){
     //creating a new span tag and passing the question number and total question
