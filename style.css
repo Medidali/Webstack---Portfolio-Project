@@ -25,7 +25,7 @@ body{
     align-items: center;
     height: 100vh;
 }
-.container, .info_box, .quiz_box {
+.container, .info_box, .quiz_box, .result_box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,7 +381,7 @@ footer button.show{
 }
 
 .result_box{
-    background: #fff;
+   /* background: #fff;*/
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
