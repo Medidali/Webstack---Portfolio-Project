@@ -2,35 +2,35 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "What is the sum of any THREE angles of a rectangle?",
+    answer: "360 degrees",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "90 degrees",
+      "360 degrees",
+      "180 degrees",
+      "270 degrees"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "What is the simplest form of 16/24?",
+    answer: "2/3",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "3/8",
+      "6/5",
+      "4/7",
+      "2/3"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Which of these lies between 6.3 and 6.6?",
+    answer: "6.45",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "6.23",
+      "6.45",
+      "6.78",
+      "6.63"
     ]
   },
     {
