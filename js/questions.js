@@ -46,13 +46,13 @@ let questions = [
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What is the place value of 3 in 1.234?",
+    answer: "3/100",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "3/10000",
+      "3/100",
+      "3/10",
+      "3/1000"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
