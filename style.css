@@ -62,8 +62,9 @@ body{
 
 .line {
     width: 200px;
-    margin-top: 5px;
-    border: 1px solid rgb(89, 56, 196);
+    margin-top: 15px;
+    border: 0.5px solid rgb(255 255 255);
+	
 }
 
 .landing-page>p {
@@ -94,9 +95,6 @@ body{
     margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-
-
 .info_box, 
 .quiz_box,
 .result_box{
@@ -122,12 +120,8 @@ body{
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
 }
-
-
-
 .info_box {
     width: 450px;
-    /*background: #fff;*/
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -138,7 +132,6 @@ body{
 .info-title{
     height: 50px;
     width: 100%;
-    /*border-bottom: 1px solid lightgrey;*/
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -263,7 +256,6 @@ body{
 
 section{
     padding: 25px 30px 20px 30px;
-    /*background: #fff;*/
 }
 
 section .que_text{
@@ -394,7 +386,6 @@ footer button.show{
 }
 
 .result_box{
-   /* background: #fff;*/
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
@@ -454,11 +445,6 @@ footer button.show{
     margin: 10px; 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-/*
-.buttons button.restart{
-	color: #fff;
-    background: #007bff;
-}*/
 
 .buttons button.restart:hover{
     background: #0263ca;
