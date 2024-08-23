@@ -67,8 +67,8 @@ body{
 }
 
 .landing-page>p {
-    font-size: 20px;
-    margin: 100px 10px 30px 10px;
+    font-size: 23px;
+    margin: 120px 10px 40px 10px;
 }
 .start_btn button {
     padding: 5px;
@@ -303,15 +303,15 @@ section .option_list .option:hover{
 }
 
 section .option_list .option.correct{
-    color: #155724;
-    background: #d4edda;
+    color: #000000;
+    background: #80ef9b;
     border: 1px solid #c3e6cb;
 }
 
 section .option_list .option.incorrect{
-    color: #721c24;
-    background: #f8d7da;
-    border: 1px solid #f5c6cb;
+    color: #000000;
+    background: #f78690;
+    border: 1px solid #c3e6cb;
 }
 
 section .option_list .option.disabled{
@@ -415,15 +415,17 @@ footer button.show{
 }
 
 .result_box .complete_text{
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 800;
+	color:#fff; 
 }
 
 .result_box .score_text span{
     display: flex;
-    margin: 10px 0;
-    font-size: 18px;
-    font-weight: 500;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+	color:#fff;
 }
 
 .result_box .score_text span p{
