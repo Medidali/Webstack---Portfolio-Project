@@ -57,6 +57,10 @@
   
 + **JavaScript:** For implementing interactive features and quiz logic.
 
++ **Vs Code and NotePad++** : For writing the code
+
++ **Github descktop** : for clone and push the updates the project files
+
 ## Design
 
 
